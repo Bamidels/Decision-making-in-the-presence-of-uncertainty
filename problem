@@ -1,1 +1,23 @@
-Q
+The problem that we are trying to solve here is to understand "Decision making in the presence of uncertainty".
+Problem:  Multi-step investment decision.
+Assume you have to invest 10K for 2 investment periods. Your options are the stock market
+and the bank. The probability of a stock going up in the first period is: 0.4. The probability
+of a stock going up in the second period depends on the first period stock outcomes and
+equal: P(2nd = up|1st = up) = 0.35 and P(2nd = up|1st = down) = 0.45. The monetary
+returns for different scenarios are defined as follows:
+(A1: stock, S1: up, A2: stock, S2: up): 22K
+(A1: stock, S1: up, A2: stock, S2: down): 12.5K
+(A1: stock, S1: up, A2: bank, S2: any): 14.5K
+(A1: stock, S1: down, A2: stock, S2: up): 11K
+(A1: stock, S1: down, A2: stock, S2: down): 6K
+(A1: stock, S1: down, A2: bank, S2: any): 8K
+(A1: bank, S1: any, A2: stock, S2: up): 13.5K
+(A1: bank, S1: any, A2: stock, S2: down): 8K
+(A1: bank, S1: any, A2: bank, S2: any): 10.5K
+where A1 denotes action 1, S1 the movement of the stock in period 1, A2 action 2 and S2
+the movement of the stock in period 2.
+Part a. Draw the decision tree for the problem based on the above specs.
+Part b. Assume you want to maximize the expected monetary value of the investment.
+Perform the calculations that let you decide on the best investment option, Highlight the
+optimal choices/actions to be taken by the decision maker.
+
