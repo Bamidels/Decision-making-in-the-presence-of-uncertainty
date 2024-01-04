@@ -1,0 +1,15 @@
+The Python code has calculated the expected monetary value (EMV) and the expected utility for the investment decision problem. Here are the results, which reflect your analysis:
+
+The optimal action based on EMV is to invest in the stock, with an EMV of approximately $11,280.
+The optimal action based on the utility function is also to invest in the stock, with a utility value of approximately 0.1048.
+The detailed results are as follows:
+
+Expected monetary value for investing in stock: $11,280
+Expected monetary value for investing in the bank: $10,500
+Utility for investing in stock: 0.1048
+Utility for investing in the bank: 0.1025
+These results confirm that investing in the stock market is the best course of action for both maximizing the expected monetary return and the expected utility based on the utility function 
+
+U(x)=  sgrt (x/1000)
+​
+ 
